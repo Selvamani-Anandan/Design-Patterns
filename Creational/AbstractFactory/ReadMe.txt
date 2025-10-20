@@ -6,6 +6,15 @@ The Abstract Factory pattern provides a way to create families of related object
 
 Think of it like a furniture company that makes sets: Modern, Victorian, ArtDeco. Each set includes a chair and a sofa. The factory (e.g., ModernFurnitureFactory) knows how to create the correct chair and sofa for its style.
 
+Abstract Products --> Concrete Products ----- Abstract Factories --> Concrete Factories
+
+
+1. Create Abstract Products (Interfaces)
+2. Implement Interface in Concrete Products (Implement Interfaces)
+3. Create Abstract Factory which 'returns' Interface from step 1.
+4. Create Concrete Factory which organizes same type classes into one concrete classes, thus grouping the related objects.ß
+
+
 Memory hooks (quick and sticky):
 - "Family first": factories produce a family of products that belong together (chair + sofa).
 - "Abstract factory returns abstract products": methods return interfaces (IChair, ISofa) not concrete classes.
@@ -107,4 +116,3 @@ Notes:
 - In ASP.NET Core, put registrations in `Program.cs` / `Startup.cs`.
 
 ---
-
