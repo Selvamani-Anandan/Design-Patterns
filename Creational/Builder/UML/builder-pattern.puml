@@ -1,0 +1,76 @@
+@startuml Builder Pattern - Pizza Example
+
+skinparam classAttributeIconSize 0
+skinparam classFontStyle bold
+skinparam classAttributeFontStyle normal
+
+class Pizza {
+    -dough: string
+    -sauce: string
+    -topping: string
+    +Dough: string { get; set; }
+    +Sauce: string { get; set; }
+    +Topping: string { get; set; }
+    +Show(): void
+}
+
+abstract class PizzaBuilder {
+    #pizza: Pizza
+    +CreateNewPizza(): void
+    +GetPizza(): Pizza
+    +{abstract} BuildDough(): void
+    +{abstract} BuildSauce(): void
+    +{abstract} BuildTopping(): void
+}
+
+class HawaiianPizzaBuilder {
+    +BuildDough(): void
+    +BuildSauce(): void
+    +BuildTopping(): void
+}
+
+class SpicyPizzaBuilder {
+    +BuildDough(): void
+    +BuildSauce(): void
+    +BuildTopping(): void
+}
+
+class Waiter {
+    -pizzaBuilder: PizzaBuilder
+    +SetPizzaBuilder(pb: PizzaBuilder): void
+    +GetPizza(): Pizza
+    +ConstructPizza(): void
+}
+
+' Relationships
+PizzaBuilder <|-- HawaiianPizzaBuilder
+PizzaBuilder <|-- SpicyPizzaBuilder
+PizzaBuilder o-- Pizza
+Waiter o-- PizzaBuilder
+
+note right of Pizza
+  Product class that represents
+  the complex object being built
+end note
+
+note right of PizzaBuilder
+  Abstract Builder that defines
+  the building steps
+end note
+
+note right of Waiter
+  Director that controls
+  the building process
+end note
+
+note bottom of HawaiianPizzaBuilder
+  Concrete Builder implementing
+  Hawaiian pizza variation
+end note
+
+note bottom of SpicyPizzaBuilder
+  Concrete Builder implementing
+  Spicy pizza variation
+end note
+
+@enduml

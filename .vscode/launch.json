@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://aka.ms/VSCodeLaunch
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C#: Debug Active File-Based App",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Creational/Builder/bin/Debug/net7.0/Builder.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Creational/Builder",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "C#: Launch Solution",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/net7.0/Design-Patterns.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}

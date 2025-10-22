@@ -1,0 +1,15 @@
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/bin/Debug/net7.0/Builder
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/bin/Debug/net7.0/Builder.deps.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/bin/Debug/net7.0/Builder.runtimeconfig.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/bin/Debug/net7.0/Builder.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/bin/Debug/net7.0/Builder.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.csproj.AssemblyReference.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.AssemblyInfoInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.AssemblyInfo.cs
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.csproj.CoreCompileInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/refint/Builder.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/Builder.genruntimeconfig.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Builder/obj/Debug/net7.0/ref/Builder.dll
