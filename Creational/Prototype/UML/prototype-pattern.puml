@@ -1,0 +1,62 @@
+@startuml prototype-pattern
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor #666666
+    BorderColor #666666
+}
+
+skinparam classFontSize 14
+skinparam classFontName Arial
+
+interface IDocument {
+    + Title: string
+    + Content: string
+    + CreatedDate: DateTime
+    + Author: string
+    + Clone(): IDocument
+    + Display(): void
+}
+
+class TextDocument {
+    + FontName: string
+    + FontSize: int
+    + TextDocument(title: string, content: string, author: string, fontName: string, fontSize: int)
+    + Clone(): IDocument
+    + Display(): void
+}
+
+class SpreadsheetDocument {
+    + RowCount: int
+    + ColumnCount: int
+    + SpreadsheetDocument(title: string, content: string, author: string, rows: int, columns: int)
+    + Clone(): IDocument
+    + Display(): void
+}
+
+class DocumentRegistry {
+    - _documents: Dictionary<string, IDocument>
+    + RegisterDocument(key: string, doc: IDocument): void
+    + CreateClone(key: string): IDocument
+}
+
+IDocument <|.. TextDocument
+IDocument <|.. SpreadsheetDocument
+DocumentRegistry o-- IDocument
+
+note right of DocumentRegistry
+  Registry stores prototype instances
+  and creates clones on demand
+end note
+
+note right of IDocument
+  Prototype interface defines
+  the cloning contract
+end note
+
+note bottom of TextDocument
+  Concrete prototype that
+  implements cloning
+end note
+
+@enduml

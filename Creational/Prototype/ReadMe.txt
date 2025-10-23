@@ -1,5 +1,13 @@
 # Prototype Pattern
 
+## UML Diagram
+The UML diagram for this implementation can be found in the `UML/prototype-pattern.puml` file. The diagram shows:
+- IDocument interface (Prototype)
+- Concrete implementations (TextDocument, SpreadsheetDocument)
+- DocumentRegistry class
+- Relationships between classes
+- Key methods and properties
+
 ## What is the Prototype Pattern?
 The Prototype pattern is a creational design pattern that allows you to create new objects by cloning an existing object, known as the prototype. This pattern is particularly useful when creating an object is more expensive than copying an existing one.
 

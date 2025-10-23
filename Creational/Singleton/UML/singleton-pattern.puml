@@ -1,0 +1,53 @@
+@startuml singleton-pattern
+
+skinparam class {
+    BackgroundColor White
+    ArrowColor #666666
+    BorderColor #666666
+}
+
+class BasicLogger {
+    - {static} _instance: BasicLogger
+    - _logs: List<string>
+    - BasicLogger()
+    + {static} Instance: BasicLogger
+    + Log(message: string): void
+    + GetLogs(): IReadOnlyList<string>
+}
+
+class ThreadSafeLogger {
+    - {static} volatile _instance: ThreadSafeLogger
+    - {static} _lock: object
+    - _logs: List<string>
+    - ThreadSafeLogger()
+    + {static} Instance: ThreadSafeLogger
+    + Log(message: string): void
+    + GetLogs(): IReadOnlyList<string>
+}
+
+class LazyLogger {
+    - {static} _lazyInstance: Lazy<LazyLogger>
+    - _logs: List<string>
+    - _lock: object
+    - LazyLogger()
+    + {static} Instance: LazyLogger
+    + Log(message: string): void
+    + GetLogs(): IReadOnlyList<string>
+}
+
+note right of BasicLogger
+  Basic Singleton implementation
+  Not thread-safe!
+end note
+
+note right of ThreadSafeLogger
+  Thread-safe implementation using
+  double-check locking pattern
+end note
+
+note right of LazyLogger
+  Thread-safe implementation using
+  Lazy<T> initialization
+end note
+
+@enduml

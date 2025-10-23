@@ -1,0 +1,15 @@
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/bin/Debug/net7.0/Singleton
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/bin/Debug/net7.0/Singleton.deps.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/bin/Debug/net7.0/Singleton.runtimeconfig.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/bin/Debug/net7.0/Singleton.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/bin/Debug/net7.0/Singleton.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.csproj.AssemblyReference.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.AssemblyInfoInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.AssemblyInfo.cs
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.csproj.CoreCompileInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/refint/Singleton.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/Singleton.genruntimeconfig.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Singleton/obj/Debug/net7.0/ref/Singleton.dll
