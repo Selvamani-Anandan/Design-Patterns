@@ -1,0 +1,15 @@
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/bin/Debug/net7.0/Prototype
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/bin/Debug/net7.0/Prototype.deps.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/bin/Debug/net7.0/Prototype.runtimeconfig.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/bin/Debug/net7.0/Prototype.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/bin/Debug/net7.0/Prototype.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.csproj.AssemblyReference.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.AssemblyInfoInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.AssemblyInfo.cs
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.csproj.CoreCompileInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/refint/Prototype.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/Prototype.genruntimeconfig.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Prototype/obj/Debug/net7.0/ref/Prototype.dll
