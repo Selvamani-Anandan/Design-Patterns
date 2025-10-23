@@ -1,0 +1,15 @@
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/bin/Debug/net7.0/Factory
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/bin/Debug/net7.0/Factory.deps.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/bin/Debug/net7.0/Factory.runtimeconfig.json
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/bin/Debug/net7.0/Factory.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/bin/Debug/net7.0/Factory.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.csproj.AssemblyReference.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.AssemblyInfoInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.AssemblyInfo.cs
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.csproj.CoreCompileInputs.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/refint/Factory.dll
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.pdb
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/Factory.genruntimeconfig.cache
+/Users/selvamanianandan/Documents/repos/Design-Patterns/Creational/Factory/obj/Debug/net7.0/ref/Factory.dll
